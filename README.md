@@ -4,10 +4,10 @@ Forked from https://github.com/davoam/anydo-cli to add some alises.
 After installing the CLI (the Original section), you can add the following lines to the `~/.bashrc`:
 
 ```
-alias adols=ado list | sed -n '/TODAY/,/TOMORROW/p #View today's tasks: adols
+alias adols="ado list | sed -n '/TODAY/,/TOMORROW/p" #View today's tasks: adols
 alias adotd="ado add" #Add a task for today: adotd 'task name'
 alias adotm="ado add -d tomorrow" #Add a task for tomorrow: adotm 'task name'
-alias adosd="ado add -d someday" #Add a task for someday later: adosd 'task name'
+alias adosd="ado add -d someday" #Add a task for someday later: adosd 'task name
 ```
 
 ### Details
